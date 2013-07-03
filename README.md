@@ -15,7 +15,7 @@ that it has some new classes to use.
 
 To enable the module, add to your _config.php:
 
-> Munger_Requirements_Backend::enable();
+    Munger_Requirements_Backend::enable();
 
 
 Basic Configuration
@@ -30,11 +30,11 @@ turned off.
 
 Additional features can be enabled using the following lines in _config.php:
 
-> Requirements::set_combined_files_enabled(false);
-> Munger_Requirements_Backend::setCache(true);
-> Munger_Requirements_Backend::setSniffer(true);
-> Munger_Requirements_Backend::setSass(true);
-> Munger_Requirements_Backend::setMinify(true);
+    Requirements::set_combined_files_enabled(false);
+    Munger_Requirements_Backend::setCache(true);
+    Munger_Requirements_Backend::setSniffer(true);
+    Munger_Requirements_Backend::setSass(true);
+    Munger_Requirements_Backend::setMinify(true);
 
 
 Use for static templates
