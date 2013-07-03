@@ -1,0 +1,11 @@
+.blah {
+
+    FOo: bar;
+    bar: url(foobar.jpg);
+    baz: url(/foobar.png);
+    buz: url('foobar.jpg');
+    biz: url('/foobar.jpg');
+    qwerty: url("foobar.jpg");
+    asdf: url("/foobar.jpg");
+}
+

@@ -1,0 +1,9 @@
+.foobar {
+    bag: fudge; /** ie **/
+    moo: moo; /** ff **/
+
+    meow, howl {
+        grep: awk;
+    }
+
+} 

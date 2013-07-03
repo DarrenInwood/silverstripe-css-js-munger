@@ -1,0 +1,9 @@
+/* Test page */
+
+.test p {
+    border: solid 2px blue; /** ie **/
+    border: solid 2px orange; /** ff **/
+    border: solid 2px green; /** safari **/
+    border: solid 2px red; /** chrome **/
+}
+
